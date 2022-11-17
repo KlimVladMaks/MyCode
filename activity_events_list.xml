@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <!-- Верхяя панель Activity: название списка, имя пользователя, кнопка выхода -->
+        <!-- Тулбар Activity: название списка, имя пользователя, кнопка выхода -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -62,6 +62,7 @@
 
         </LinearLayout>
 
+        <!-- Список мероприятий -->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/events_list"
             android:layout_width="match_parent"
